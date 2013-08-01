@@ -1,0 +1,19 @@
+1. 编写调用本地方法的java源程序：MfeFold.java
+2. javac MfeFold.java 产生MfeFold.class
+3. javah -jni MfeFold 产生MfeFold.h
+4. 编写本地方法的实现C源程序：mfefold.c
+5. 编译产生动态链接库Fold.so
+   gcc -fPIC -I /usr/lib/jvm/java-6-sun/include -I /usr/lib/jvm/java-6-sun/include/linux -shared -o libFold.so *.c
+
+注意：
+1. 程序执行前可能需要在shell中设定环境变量LD_LIBRARY_PATH=your_so_file_dir:$LD_LIBRARY_PATH 包括动态链接库路径
+2.gcc用法
+	gcc source.c
+	-l 参数 用来指定程序要链接的库，例如 -ltest表示链接libtest.so动态库
+        -L 参数 指定库文件所在的目录名
+        -I 参数 用来指定头文件目录
+	-o FILE 生成指定的输出文件。用在生成可执行文件时
+	-c 只编译并生成目标文件(.obj)
+	-shared 生成共享目标文件。通常用在建立共享库时
+	-fPIC 表示编译为位置独立的代码
+	-Wall 生成所有警告信息 

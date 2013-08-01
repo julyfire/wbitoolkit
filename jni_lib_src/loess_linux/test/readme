@@ -1,0 +1,24 @@
+cc -cckr -O -fPIC   -c -o loessc.o loessc.c
+cc -cckr -O -fPIC   -c -o loess.o loess.c
+cc -cckr -O -fPIC   -c -o predict.o predict.c
+cc -cckr -O -fPIC   -c -o misc.o misc.c
+cc -cckr -O -fPIC   -c -o loessf.o loessf.c
+cc -cckr -O -fPIC   -c -o pow_ii.o pow_ii.c
+cc -cckr -O -fPIC   -c -o d_sign.o d_sign.c
+cc -cckr -O -fPIC   -c -o pow_dd.o pow_dd.c
+
+
+f77 -O -fPIC  -c -o dsvdc.o dsvdc.f
+f77 -O -fPIC  -c -o dqrsl.o dqrsl.f
+f77 -O -fPIC  -c -o dnrm2.o dnrm2.f
+f77 -O -fPIC  -c -o drot.o drot.f
+f77 -O -fPIC  -c -o drotg.o drotg.f
+f77 -O -fPIC  -c -o dscal.o dscal.f
+f77 -O -fPIC  -c -o dswap.o dswap.f
+f77 -O -fPIC  -c -o daxpy.o daxpy.f
+f77 -O -fPIC  -c -o dcopy.o dcopy.f
+f77 -O -fPIC  -c -o ddot.o ddot.f
+
+cc -fPIC -I /usr/lib/jvm/java-6-sun/include -I /usr/lib/jvm/java-6-sun/include/linux -shared -o libLoessSmooth.so myloess.c loessc.o loess.o predict.o misc.o loessf.o dsvdc.o dqrsl.o pow_ii.o d_sign.o pow_dd.o dnrm2.o drot.o drotg.o dscal.o dswap.o daxpy.o dcopy.o ddot.o -lm
+
+rm -f *.o

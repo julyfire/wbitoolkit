@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="头文件"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="源文件"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="资源文件"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>../RNAFold2/jmipara2_MfeFold.h</itemPath>
+      <itemPath>../RNAFold2/libRNA_a-energy_par.o</itemPath>
+      <itemPath>../RNAFold2/libRNA_a-fold.o</itemPath>
+      <itemPath>../RNAFold2/libRNA_a-fold_vars.o</itemPath>
+      <itemPath>../RNAFold2/libRNA_a-params.o</itemPath>
+      <itemPath>../RNAFold2/libRNA_a-utils.o</itemPath>
+      <itemPath>../RNAFold2/mfefold.c</itemPath>
+      <itemPath>../RNAFold2/mfefold.o</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin_4.x|Cygwin_4.x</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../../../../Program Files/Java/jdk1.6.0_23/include</pElem>
+            <pElem>../../../../../Program Files/Java/jdk1.6.0_23/include/win32</pElem>
+          </incDir>
+          <commandLine>-shared -fPIC -lm</commandLine>
+        </cTool>
+        <linkerTool>
+          <output>dist/librnafold.dll</output>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin_4.x|Cygwin_4.x</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

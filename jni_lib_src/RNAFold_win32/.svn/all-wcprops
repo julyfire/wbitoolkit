@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32
+END
+params.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/params.h
+END
+circfold.inc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/circfold.inc
+END
+fold.obj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/fold.obj
+END
+params.obj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/params.obj
+END
+Fold.exp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/Fold.exp
+END
+RNAFold.exp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/RNAFold.exp
+END
+Fold.dll
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/Fold.dll
+END
+RNAFold.dll
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/RNAFold.dll
+END
+energy_par.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/energy_par.c
+END
+fold_vars.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/fold_vars.c
+END
+mfefold.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/mfefold.c
+END
+energy_par.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/energy_par.h
+END
+fold_vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/fold_vars.h
+END
+libFold.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/libFold.so
+END
+energy_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/energy_const.h
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/utils.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/utils.h
+END
+grecscan_MfeFold.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/grecscan_MfeFold.h
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/readme
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/readme.txt
+END
+energy_par.obj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/energy_par.obj
+END
+fold_vars.obj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/fold_vars.obj
+END
+jmipara2_MfeFold.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/jmipara2_MfeFold.h
+END
+pair_mat.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/pair_mat.h
+END
+fold.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/fold.c
+END
+mfefold.obj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/mfefold.obj
+END
+Fold.lib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/Fold.lib
+END
+intloops.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/intloops.h
+END
+utils.obj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/utils.obj
+END
+fold.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/fold.h
+END
+params.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/43/java/GRecScan/jni_lib/RNAFold_win32/params.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/config.h
+END
+RNAFold.lib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repo/public/!svn/ver/37/java/GRecScan/jni_lib/RNAFold_win32/RNAFold.lib
+END
